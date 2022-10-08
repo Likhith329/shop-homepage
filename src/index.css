@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.navbar-brand{
+  font-size: 25px; margin-left: 100px;
+}
+.navbar{
+  background-color: aqua;
+}
+ul{
+  margin-left: 30px;
+}
+.title{
+  display: flex; flex-direction: column;
+   background-color:rgba(33,37,41,255); height: 250px;color: white;
+   justify-content: center;align-items: center;
+}
+.name1{
+ font-size: 50px; font-weight: bold;
+}
+.namedes{
+  font-size: 20px; 
+}
+.container-fluid{
+  display: flex; flex-wrap: wrap; justify-content: center;
+  padding: 95px;
+}
+.card{
+  width: 270px;margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+.name{
+  font-size: 20px; font-weight: bold;
+  margin-bottom: 5px;
+}
+.rating{
+  margin-bottom: 5px;
+}
+
+.first-badge{
+  border-radius: 50%;line-height: 15px;
+}
+.second-badge{
+  position:absolute; width: max-content;
+  left:82%; top: 10px;
+}
+
+
+.striked{
+  text-decoration: line-through;
+}
+.actual{
+  margin-left: 5px;
+}
+.cart-button{
+  padding: 5px;width: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 90%;
+  animation: anim 1s 1;
+}
+button{
+  margin: 15px;
+}
+.products{
+  background-color: aqua;
+  border-radius: 10px; 
+}
